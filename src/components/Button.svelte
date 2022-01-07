@@ -134,11 +134,7 @@
       {:else if mintSuccessful}
         <span>Mint succesful! Mint another?</span>
       {:else}
-        <span
-          >Mint ({(
-            (userWhitelisted ? whitelistPrice : price) / LAMPORTS_PER_SOL
-          ).toFixed(2)} SOL)</span
-        >
+        <span>1 SOL</span>
       {/if}
     </button>
   {/if}

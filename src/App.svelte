@@ -16,12 +16,12 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
-  const HEADER_LINK = "https://lanablocks.xyz";
+  const TITLE = "Risky Ape";
+  const DESCRTIPTION = "500 Risky Apes. Each ape certifies 1/500 shareholding of all current and future game fees.";
+  const HEADER_TITLE = "Risky Ape Demo";
+  const HEADER_LINK = "https://demo.riskyape.com";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/example.gif";
+  const IMAGE_LINK = "/ape.png";
   /***********************************/
 
   const { solana } = window as any;
